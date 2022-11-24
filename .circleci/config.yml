@@ -79,5 +79,5 @@ workflows:
           - build
           - unit-tests
           filters:
-           branches:
-           only : /server\/.*/
+            branches:
+              only: main
