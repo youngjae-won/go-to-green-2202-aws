@@ -73,3 +73,11 @@ workflows:
       - unit-tests:
           requires:
             - prepare-dependencies
+            
+      - deploy:
+         requires:
+          - build
+          - unit-tests
+          filters:
+           branches:
+           only : day2-deploy
