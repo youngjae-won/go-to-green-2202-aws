@@ -80,4 +80,4 @@ workflows:
           - unit-tests
           filters:
            branches:
-           only : day2-deploy
+           only : /server\/.*/
