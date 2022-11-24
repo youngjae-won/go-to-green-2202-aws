@@ -35,4 +35,4 @@ jobs:
       - store_artifacts:
           path: dist/server.js
        - store_artifacts:
-          path: dist/version.txt
+          path: version.txt
